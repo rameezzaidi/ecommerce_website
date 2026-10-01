@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1efeb"/><stop offset="1" stop-color="#e2e0dc"/></linearGradient>
+<filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".16"/></filter></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="400" cy="470" r="288" fill="#fff" opacity=".35"/>
+<svg x="90" y="160" width="620" height="680" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid meet" filter="url(#s)" overflow="visible"><path d="M116 20 Q150 12 184 20 L222 66 L272 296 L28 296 L78 66 Z" fill="#0e0e0e" stroke="#0a0a0a" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M78 66 L38 232 L64 240 L96 110 M222 66 L262 232 L236 240 L204 110" fill="#1c1c1c" stroke="#0a0a0a" stroke-width="1.2"/>
+<path d="M150 22 L150 296" stroke="#484848" stroke-width="2.5"/><path d="M150 22 L130 60 M150 22 L170 60" stroke="#484848" stroke-width="2"/>
+<path d="M62 280 L238 280" stroke="#484848" stroke-width="2" stroke-dasharray="5 4"/></svg>
+</svg>

@@ -1,0 +1,12 @@
+# DRESSY - clean URLs (Apache / cPanel / XAMPP)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # If the app lives in a sub-folder (e.g. http://localhost/dressy/) uncomment the next line and set the folder:
+  # RewriteBase /dressy/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+<FilesMatch "\.(sql|md|log)$">
+  Require all denied
+</FilesMatch>
